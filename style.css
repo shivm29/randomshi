@@ -30,7 +30,7 @@ body{
     max-width: 400px;
     width: 90%;
     height: 100%;
-    background-color:rgba(255, 255, 255, 0.541);
+    background-color:rgba(0, 0, 0, 0.414);
     border-radius: 5px;
     margin: 0px 10px;
     box-sizing: border-box;
@@ -39,6 +39,7 @@ body{
     box-sizing: border-box;
     padding: 10px 10px;
     flex-direction: column;
+    color: white;
 }
 
 nav{
@@ -50,8 +51,8 @@ nav{
     height: 7vh;
     box-sizing: border-box;
     padding: 0px 10px;
-    background-color:rgba(255, 255, 255, 0.634);
-    color: black;
+    background-color:rgba(0, 0, 0, 0.414);
+    color: rgb(255, 255, 255);
     font-size: 30px;
     /* text-decoration: underline; */
     margin-bottom: 20px;
@@ -91,7 +92,7 @@ nav div{
     width: 100%;
     box-sizing: border-box;
     padding: 20px 10px;
-    color: black;
+    color: rgba(255, 255, 255, 0.788);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 00;
     align-items: center;
@@ -109,15 +110,21 @@ nav div{
 
 #next{
     padding: 10px;
-    height: 50px;
-    width: 90px;
+    height: 70px;
+    width: 120px;
     border-radius: 4px;
     border: none;
-    color: black;
+    color: rgba(255, 255, 255, 0.675);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-family: monospace;
     font-weight: 600;
-    background-color:rgba(255, 255, 255, 0.567);
+    background-color:rgba(0, 0, 0, 0.414);
+    font-size: 17px;
+    
+}
+
+#next:hover{
+background-color: rgba(0, 0, 0, 0.759);
 }
 
 .image img{
