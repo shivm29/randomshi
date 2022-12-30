@@ -135,7 +135,7 @@ caption.innerHTML = lines[Math.floor(Math.random()*40)].content;
 image.innerHTML = `<img src='images/${Math.floor(Math.random()*68)}.jpg' />`
 
 button.onclick = () => {
-    let i = Math.floor(Math.random()*66);
+    let i = Math.floor(Math.random()*80);
     let c = Math.floor(Math.random()*40);
     console.log(i)
     image.innerHTML = `<img src='images/${i}.jpg' />`
